@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5047" started-at="2021-04-18T02:56:16Z" finished-at="2021-04-18T02:56:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5047" started-at="2021-04-18T02:56:16Z" finished-at="2021-04-18T02:56:21Z">
+      <class name="webdriver.Topic_01_Check_Environment">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:webdriver.Topic_01_Check_Environment@48eff760]" name="beforeClass" is-config="true" duration-ms="4716" started-at="2021-04-18T09:56:16Z" finished-at="2021-04-18T09:56:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="TC_01_ValidateCurrentUrl()[pri:0, instance:webdriver.Topic_01_Check_Environment@48eff760]" name="TC_01_ValidateCurrentUrl" duration-ms="14" started-at="2021-04-18T09:56:21Z" finished-at="2021-04-18T09:56:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_ValidateCurrentUrl -->
+        <test-method status="PASS" signature="TC_02_ValidatePageTitle()[pri:0, instance:webdriver.Topic_01_Check_Environment@48eff760]" name="TC_02_ValidatePageTitle" duration-ms="6" started-at="2021-04-18T09:56:21Z" finished-at="2021-04-18T09:56:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_ValidatePageTitle -->
+        <test-method status="PASS" signature="TC_03_LoginFormDisplayed()[pri:0, instance:webdriver.Topic_01_Check_Environment@48eff760]" name="TC_03_LoginFormDisplayed" duration-ms="36" started-at="2021-04-18T09:56:21Z" finished-at="2021-04-18T09:56:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_LoginFormDisplayed -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:webdriver.Topic_01_Check_Environment@48eff760]" name="afterClass" is-config="true" duration-ms="267" started-at="2021-04-18T09:56:21Z" finished-at="2021-04-18T09:56:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- webdriver.Topic_01_Check_Environment -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
