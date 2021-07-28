@@ -1,33 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5047" started-at="2021-04-18T02:56:16Z" finished-at="2021-04-18T02:56:21Z">
+  <suite name="Default suite" duration-ms="35495" started-at="2021-07-28T14:17:28Z" finished-at="2021-07-28T14:18:04Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5047" started-at="2021-04-18T02:56:16Z" finished-at="2021-04-18T02:56:21Z">
-      <class name="webdriver.Topic_01_Check_Environment">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:webdriver.Topic_01_Check_Environment@48eff760]" name="beforeClass" is-config="true" duration-ms="4716" started-at="2021-04-18T09:56:16Z" finished-at="2021-04-18T09:56:21Z">
+    <test name="Default test" duration-ms="35495" started-at="2021-07-28T14:17:28Z" finished-at="2021-07-28T14:18:04Z">
+      <class name="webdriver.Topic_16_Wait_6_Mixing">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:webdriver.Topic_16_Wait_6_Mixing@6cc4c815]" name="beforeClass" is-config="true" duration-ms="3085" started-at="2021-07-28T14:17:28Z" finished-at="2021-07-28T14:17:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="TC_01_ValidateCurrentUrl()[pri:0, instance:webdriver.Topic_01_Check_Environment@48eff760]" name="TC_01_ValidateCurrentUrl" duration-ms="14" started-at="2021-04-18T09:56:21Z" finished-at="2021-04-18T09:56:21Z">
+        <test-method status="PASS" signature="TC_02_Element_Not_Found_Implicit()[pri:0, instance:webdriver.Topic_16_Wait_6_Mixing@6cc4c815]" name="TC_02_Element_Not_Found_Implicit" duration-ms="11036" started-at="2021-07-28T14:17:31Z" finished-at="2021-07-28T14:17:42Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_01_ValidateCurrentUrl -->
-        <test-method status="PASS" signature="TC_02_ValidatePageTitle()[pri:0, instance:webdriver.Topic_01_Check_Environment@48eff760]" name="TC_02_ValidatePageTitle" duration-ms="6" started-at="2021-04-18T09:56:21Z" finished-at="2021-04-18T09:56:21Z">
+        </test-method> <!-- TC_02_Element_Not_Found_Implicit -->
+        <test-method status="PASS" signature="TC_03_Element_Not_Found_Implicit_Explicit()[pri:0, instance:webdriver.Topic_16_Wait_6_Mixing@6cc4c815]" name="TC_03_Element_Not_Found_Implicit_Explicit" duration-ms="20853" started-at="2021-07-28T14:17:42Z" finished-at="2021-07-28T14:18:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_02_ValidatePageTitle -->
-        <test-method status="PASS" signature="TC_03_LoginFormDisplayed()[pri:0, instance:webdriver.Topic_01_Check_Environment@48eff760]" name="TC_03_LoginFormDisplayed" duration-ms="36" started-at="2021-04-18T09:56:21Z" finished-at="2021-04-18T09:56:21Z">
+        </test-method> <!-- TC_03_Element_Not_Found_Implicit_Explicit -->
+        <test-method status="PASS" signature="TC_04_Element_Not_Found_Explicit_Param_By()[pri:0, instance:webdriver.Topic_16_Wait_6_Mixing@6cc4c815]" name="TC_04_Element_Not_Found_Explicit_Param_By" duration-ms="0" started-at="2021-07-28T14:18:03Z" finished-at="2021-07-28T14:18:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_03_LoginFormDisplayed -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:webdriver.Topic_01_Check_Environment@48eff760]" name="afterClass" is-config="true" duration-ms="267" started-at="2021-04-18T09:56:21Z" finished-at="2021-04-18T09:56:21Z">
+        </test-method> <!-- TC_04_Element_Not_Found_Explicit_Param_By -->
+        <test-method status="PASS" signature="TC_05_Element_Not_Found_Explicit_Param_WebElement()[pri:0, instance:webdriver.Topic_16_Wait_6_Mixing@6cc4c815]" name="TC_05_Element_Not_Found_Explicit_Param_WebElement" duration-ms="0" started-at="2021-07-28T14:18:03Z" finished-at="2021-07-28T14:18:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_05_Element_Not_Found_Explicit_Param_WebElement -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:webdriver.Topic_16_Wait_6_Mixing@6cc4c815]" name="afterClass" is-config="true" duration-ms="509" started-at="2021-07-28T14:18:03Z" finished-at="2021-07-28T14:18:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- webdriver.Topic_01_Check_Environment -->
+      </class> <!-- webdriver.Topic_16_Wait_6_Mixing -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
