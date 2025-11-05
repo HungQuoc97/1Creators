@@ -1,0 +1,1 @@
+{"uuid":"4571fd49-4d9a-4318-b6bb-3a1d3cf93a3d","name":"com.chub.admin.Login_Account","children":["a6042638-fea5-4ba5-b698-626d48c304fb"],"befores":[{"name":"beforeClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1762228438839,"stop":1762228441092}],"afters":[],"links":[],"start":1762228438830,"stop":1762228488974}

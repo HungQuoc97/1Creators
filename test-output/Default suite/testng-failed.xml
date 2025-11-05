@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="url" value="https://1creator.stg.onidservice.cloud/vi/auth/login"/>
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="webdriver.Topic_16_Wait_6_Mixing">
+      <class name="com.chub.admin.Search_Article_List">
         <methods>
-          <include name="afterClass"/>
           <include name="beforeClass"/>
-          <include name="TC_02_Element_Not_Found_Implicit"/>
+          <include name="cleanBrowser"/>
+          <include name="Article_search"/>
+          <include name="deleteAllFilesInReportNGScreenshot"/>
         </methods>
-      </class> <!-- webdriver.Topic_16_Wait_6_Mixing -->
+      </class> <!-- com.chub.admin.Search_Article_List -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
